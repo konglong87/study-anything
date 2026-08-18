@@ -16,6 +16,7 @@ required_files=(
   "runtime.md"
   "package.yaml"
   "README.md"
+  "README.zh-CN.md"
   "LICENSE"
   "CHANGELOG.md"
   "docs/runtime-contract.md"
@@ -32,6 +33,16 @@ for file in "${required_files[@]}"; do
     exit 1
   fi
 done
+
+if ! grep -q 'README.zh-CN.md' "${PKG_DIR}/README.md"; then
+  echo "README.md is missing the Chinese documentation link" >&2
+  exit 1
+fi
+
+if ! grep -q 'README.md' "${PKG_DIR}/README.zh-CN.md"; then
+  echo "README.zh-CN.md is missing the English documentation link" >&2
+  exit 1
+fi
 
 if ! grep -q '^package_key: study-anything$' "${PKG_DIR}/package.yaml"; then
   echo "package.yaml has an unexpected package_key" >&2

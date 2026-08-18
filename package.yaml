@@ -6,6 +6,7 @@ runtime_includes:
   - runtime.md
 package_files:
   - README.md
+  - README.zh-CN.md
   - LICENSE
   - CHANGELOG.md
   - SKILL.md
@@ -19,6 +20,7 @@ package_files:
 runtime_excludes:
   - SKILL.md
   - README.md
+  - README.zh-CN.md
   - LICENSE
   - CHANGELOG.md
   - docs/runtime-contract.md

@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added complete Simplified Chinese documentation.
+- Improved README navigation, badges, package summary, quick start, and learning-flow overview.
+
 ## 0.1.0 - 2026-08-18
 
 - Initial public release of the `study-anything` learning-coach skill.

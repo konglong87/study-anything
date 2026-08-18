@@ -1,0 +1,31 @@
+schema_version: skill_package_v1
+package_key: study-anything
+entrypoint: SKILL.md
+runtime_entrypoint: runtime.md
+runtime_includes:
+  - runtime.md
+package_files:
+  - README.md
+  - LICENSE
+  - CHANGELOG.md
+  - SKILL.md
+  - runtime.md
+  - docs/runtime-contract.md
+  - docs/package-notes.md
+  - examples/calibration-missing-familiar-domain.json
+  - examples/no-familiar-domain.json
+  - scripts/validate-package.sh
+  - scripts/build-zip.sh
+runtime_excludes:
+  - SKILL.md
+  - README.md
+  - LICENSE
+  - CHANGELOG.md
+  - docs/runtime-contract.md
+  - docs/package-notes.md
+  - examples/calibration-missing-familiar-domain.json
+  - examples/no-familiar-domain.json
+  - scripts/validate-package.sh
+  - scripts/build-zip.sh
+assets_runtime_policy: excluded_by_default
+scripts_runtime_policy: never_execute_during_request

@@ -1,0 +1,27 @@
+{
+  "name": "calibration_missing_familiar_domain",
+  "input": {
+    "contract_version": "study_context_v1",
+    "authoritative_state": {
+      "workflow": "calibration",
+      "calibration": {
+        "missing_slots": ["familiar_domain"],
+        "status": "missing_required_slots"
+      },
+      "allowed_state_changes": ["profile_item_upsert"],
+      "profile_items": []
+    },
+    "recent_messages": [
+      {
+        "role": "user",
+        "content": "请直接帮我生成学习计划。"
+      }
+    ]
+  },
+  "expected": {
+    "workflow": "calibration",
+    "must_not_emit_state_change": "learning_plan_draft_create",
+    "analogy_used": false,
+    "reply_intent": "ask familiar domain before plan drafting"
+  }
+}

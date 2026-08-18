@@ -1,0 +1,7 @@
+.DS_Store
+.dev-logs/
+.dev-pids/
+AGENTS.md
+CLAUDE.md
+**/AGENTS.md
+**/CLAUDE.md

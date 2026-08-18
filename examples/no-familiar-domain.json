@@ -1,0 +1,32 @@
+{
+  "name": "no_familiar_domain_confirmed",
+  "input": {
+    "contract_version": "study_context_v1",
+    "authoritative_state": {
+      "workflow": "calibration",
+      "calibration": {
+        "missing_slots": ["familiar_domain"],
+        "status": "missing_required_slots"
+      },
+      "allowed_state_changes": ["profile_item_upsert"],
+      "profile_items": []
+    },
+    "recent_messages": [
+      {
+        "role": "user",
+        "content": "我暂时想不到熟悉领域。"
+      }
+    ]
+  },
+  "expected_state_change": {
+    "type": "profile_item_upsert",
+    "payload": {
+      "item_type": "calibration_note",
+      "concept": "暂无明确熟悉领域"
+    }
+  },
+  "expected": {
+    "analogy_used": false,
+    "teaching_fallback": "concrete examples, Socratic questions, and micro tasks"
+  }
+}

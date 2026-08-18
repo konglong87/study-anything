@@ -5,7 +5,7 @@
     <a href="./README.md">English</a> · <strong>简体中文</strong>
   </p>
   <p>
-    <img alt="版本 0.1.0" src="https://img.shields.io/badge/version-0.1.0-0f766e?style=flat-square">
+    <img alt="版本 0.1.1" src="https://img.shields.io/badge/version-0.1.1-0f766e?style=flat-square">
     <img alt="MIT 许可证" src="https://img.shields.io/badge/license-MIT-2563eb?style=flat-square">
     <img alt="Skill 压缩包" src="https://img.shields.io/badge/package-skill.zip-334155?style=flat-square">
     <img alt="可复现 SHA-256" src="https://img.shields.io/badge/SHA--256-reproducible-7c3aed?style=flat-square">
@@ -21,6 +21,7 @@
 | 项目 | 说明 |
 | --- | --- |
 | 包标识 | `study-anything` |
+| 版本 | `0.1.1` |
 | 完整指令 | `SKILL.md` |
 | 精简运行时 | `runtime.md` |
 | 使用模式 | 普通对话、结构化 JSON |

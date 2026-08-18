@@ -5,7 +5,7 @@
     <a href="https://github.com/konglong87/study-anything/blob/main/README.zh-CN.md"><strong>简体中文（默认）</strong></a> · English
   </p>
   <p>
-    <img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-0f766e?style=flat-square">
+    <img alt="Version 0.1.1" src="https://img.shields.io/badge/version-0.1.1-0f766e?style=flat-square">
     <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-2563eb?style=flat-square">
     <img alt="Skill package" src="https://img.shields.io/badge/package-skill.zip-334155?style=flat-square">
     <img alt="Reproducible SHA-256" src="https://img.shields.io/badge/SHA--256-reproducible-7c3aed?style=flat-square">
@@ -21,6 +21,7 @@ It is product-neutral and does not depend on a particular provider, database, or
 | Item | Details |
 | --- | --- |
 | Package key | `study-anything` |
+| Version | `0.1.1` |
 | Full instructions | `SKILL.md` |
 | Concise runtime | `runtime.md` |
 | Operating modes | Ordinary conversation and structured JSON |

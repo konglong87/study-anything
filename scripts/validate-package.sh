@@ -64,6 +64,11 @@ if ! grep -q '^package_key: study-anything$' "${PKG_DIR}/package.yaml"; then
   exit 1
 fi
 
+if ! grep -q '^version: 0.1.1$' "${PKG_DIR}/package.yaml"; then
+  echo "package.yaml has an unexpected package version" >&2
+  exit 1
+fi
+
 if ! grep -q '^entrypoint: SKILL.md$' "${PKG_DIR}/package.yaml"; then
   echo "package.yaml has an unexpected entrypoint" >&2
   exit 1

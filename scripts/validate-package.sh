@@ -44,6 +44,20 @@ if ! grep -q 'README.md' "${PKG_DIR}/README.zh-CN.md"; then
   exit 1
 fi
 
+install_source="github.com/konglong87/study-anything"
+for readme in "README.md" "README.zh-CN.md"; do
+  if ! grep -q "${install_source}" "${PKG_DIR}/${readme}"; then
+    echo "${readme} is missing the one-line install source" >&2
+    exit 1
+  fi
+  for agent in "Codex" "Claude Code" "Trae" "WorkBuddy" "OpenCode"; do
+    if ! grep -q "${agent}" "${PKG_DIR}/${readme}"; then
+      echo "${readme} is missing install guidance for ${agent}" >&2
+      exit 1
+    fi
+  done
+done
+
 if ! grep -q '^package_key: study-anything$' "${PKG_DIR}/package.yaml"; then
   echo "package.yaml has an unexpected package_key" >&2
   exit 1

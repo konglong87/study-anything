@@ -28,6 +28,21 @@ It is product-neutral and does not depend on a particular provider, database, or
 | Release artifact | `dist/study-anything.skill.zip` |
 | License | 0BSD |
 
+## One-Line Install
+
+In **Codex**, **Claude Code**, **Trae**, **WorkBuddy**, or **OpenCode**, tell your agent:
+
+> Install `github.com/konglong87/study-anything`.
+
+For a verifiable installation, use this fuller prompt:
+
+```text
+Install github.com/konglong87/study-anything as a local skill. When finished,
+load SKILL.md and report the installed path and validation result.
+```
+
+The agent needs GitHub access and permission to write to its local skill directory. If automatic installation is unavailable, download `dist/study-anything.skill.zip` and import it with the client's skill manager, or clone the repository into the client's local skill directory.
+
 ## What It Improves
 
 - Calibrates the learner's goal, level, constraints, and familiar domains before planning.

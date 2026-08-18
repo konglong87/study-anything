@@ -28,6 +28,21 @@
 | 发布产物 | `dist/study-anything.skill.zip` |
 | 开源许可证 | 0BSD |
 
+## 一句话安装
+
+在 **Codex**、**Claude Code**、**Trae**、**WorkBuddy** 或 **OpenCode** 中，直接告诉你的 Agent：
+
+> 安装 `github.com/konglong87/study-anything`
+
+推荐使用下面这句完整口令，安装后会自动确认结果：
+
+```text
+安装 github.com/konglong87/study-anything 作为本地 Skill。完成后读取 SKILL.md，
+并告诉我安装路径和校验结果。
+```
+
+Agent 需要能够访问 GitHub，并拥有写入本地 Skill 目录的权限。如果当前客户端不支持自动安装，可以下载 `dist/study-anything.skill.zip` 后通过客户端的 Skill 管理器导入，或者将仓库克隆到该客户端的本地 Skill 目录。
+
 ## 它解决什么问题
 
 - 在制定学习计划前，先校准目标、当前水平、约束和熟悉领域。

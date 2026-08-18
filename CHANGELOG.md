@@ -4,6 +4,7 @@
 
 - Added complete Simplified Chinese documentation.
 - Improved README navigation, badges, package summary, quick start, and learning-flow overview.
+- Added one-line installation prompts for Codex, Claude Code, Trae, WorkBuddy, and OpenCode.
 
 ## 0.1.0 - 2026-08-18
 

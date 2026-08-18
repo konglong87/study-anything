@@ -34,8 +34,9 @@ for file in "${required_files[@]}"; do
   fi
 done
 
-if ! grep -q 'README.zh-CN.md' "${PKG_DIR}/README.md"; then
-  echo "README.md is missing the Chinese documentation link" >&2
+default_readme_url="https://github.com/konglong87/study-anything/blob/main/README.zh-CN.md"
+if ! grep -q "${default_readme_url}" "${PKG_DIR}/README.md"; then
+  echo "README.md is missing the default Chinese documentation link" >&2
   exit 1
 fi
 

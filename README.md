@@ -2,7 +2,7 @@
   <h1><strong>Study Anything</strong></h1>
   <p><strong>A reusable learning-coach skill for building durable understanding.</strong></p>
   <p>
-    <strong>English</strong> · <a href="./README.zh-CN.md">简体中文</a>
+    <a href="https://github.com/konglong87/study-anything/blob/main/README.zh-CN.md"><strong>简体中文（默认）</strong></a> · English
   </p>
   <p>
     <img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-0f766e?style=flat-square">

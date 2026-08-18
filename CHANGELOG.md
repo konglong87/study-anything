@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 - 2026-08-18
+
+- Added an explicit Socratic dialogue loop before the Feynman check.
+- Added a structured Socratic question-loop example.
+- Added the `0.1.2` package version to the manifest and documentation.
+
 ## 0.1.1 - 2026-08-18
 
 - Added complete Simplified Chinese documentation.
@@ -7,7 +13,6 @@
 - Added one-line installation prompts for Codex, Claude Code, Trae, WorkBuddy, and OpenCode.
 - Made Simplified Chinese the default README entry link on GitHub.
 - Switched the public license to MIT with a collective project attribution.
-- Added the `0.1.1` package version to the manifest and documentation.
 
 ## 0.1.0 - 2026-08-18
 

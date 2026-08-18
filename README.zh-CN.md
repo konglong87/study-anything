@@ -5,7 +5,7 @@
     <a href="./README.md">English</a> · <strong>简体中文</strong>
   </p>
   <p>
-    <img alt="版本 0.1.1" src="https://img.shields.io/badge/version-0.1.1-0f766e?style=flat-square">
+    <img alt="版本 0.1.2" src="https://img.shields.io/badge/version-0.1.2-0f766e?style=flat-square">
     <img alt="MIT 许可证" src="https://img.shields.io/badge/license-MIT-2563eb?style=flat-square">
     <img alt="Skill 压缩包" src="https://img.shields.io/badge/package-skill.zip-334155?style=flat-square">
     <img alt="可复现 SHA-256" src="https://img.shields.io/badge/SHA--256-reproducible-7c3aed?style=flat-square">
@@ -21,7 +21,7 @@
 | 项目 | 说明 |
 | --- | --- |
 | 包标识 | `study-anything` |
-| 版本 | `0.1.1` |
+| 版本 | `0.1.2` |
 | 完整指令 | `SKILL.md` |
 | 精简运行时 | `runtime.md` |
 | 使用模式 | 普通对话、结构化 JSON |
@@ -50,7 +50,7 @@ Agent 需要能够访问 GitHub，并拥有写入本地 Skill 目录的权限。
 - 只有学习者确认参照领域后才使用类比，并明确类比的适用边界。
 - 生成范围清晰的小型学习计划，避免一次铺开过大的课程体系。
 - 保护复习环节，优先使用主动回忆，而不是连续灌输解释。
-- 通过苏格拉底式提问和费曼复述检查知识能否迁移。
+- 通过明确的苏格拉底式对话循环和费曼复述检查知识能否迁移。
 - 每轮回复都给出明确的下一步动作，避免学习者不知道如何继续。
 
 ## 学习流程
@@ -59,9 +59,9 @@ Agent 需要能够访问 GitHub，并拥有写入本地 Skill 目录的权限。
 | --- | --- |
 | 1. 校准 | 理解学习目标、当前水平、现实约束和可用的熟悉领域。 |
 | 2. 规划 | 生成规模适中、单元目标明确的学习路径。 |
-| 3. 练习 | 引导学习者预测、比较、回忆、解释和应用。 |
+| 3. 苏格拉底练习 | 诊断、追问、对比、给出最小提示，并让学习者重新尝试。 |
 | 4. 复习 | 用简短、针对性的主动回忆重新激活旧知识。 |
-| 5. 迁移 | 通过费曼复述和新例子验证理解，而不是只检查原句记忆。 |
+| 5. 费曼迁移 | 通过费曼复述和新例子验证理解，而不是只检查原句记忆。 |
 
 ## 快速开始
 

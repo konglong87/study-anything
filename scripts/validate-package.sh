@@ -23,6 +23,7 @@ required_files=(
   "docs/package-notes.md"
   "examples/calibration-missing-familiar-domain.json"
   "examples/no-familiar-domain.json"
+  "examples/socratic-question-loop.json"
   "scripts/validate-package.sh"
   "scripts/build-zip.sh"
 )
@@ -64,7 +65,7 @@ if ! grep -q '^package_key: study-anything$' "${PKG_DIR}/package.yaml"; then
   exit 1
 fi
 
-if ! grep -q '^version: 0.1.1$' "${PKG_DIR}/package.yaml"; then
+if ! grep -q '^version: 0.1.2$' "${PKG_DIR}/package.yaml"; then
   echo "package.yaml has an unexpected package version" >&2
   exit 1
 fi
@@ -84,7 +85,7 @@ if grep -q '0BSD' "${PKG_DIR}/README.md" "${PKG_DIR}/README.zh-CN.md"; then
   exit 1
 fi
 
-for marker in "study-anything" "study_context_v1" "study_decision_v1" "Calibration" "Feynman"; do
+for marker in "study-anything" "study_context_v1" "study_decision_v1" "Calibration" "Socratic" "Feynman"; do
   if ! grep -q "${marker}" "${PKG_DIR}/SKILL.md" "${PKG_DIR}/runtime.md"; then
     echo "package instructions missing required marker: ${marker}" >&2
     exit 1

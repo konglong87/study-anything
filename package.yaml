@@ -1,6 +1,6 @@
 schema_version: skill_package_v1
 package_key: study-anything
-version: 0.1.1
+version: 0.1.2
 license: MIT
 entrypoint: SKILL.md
 runtime_entrypoint: runtime.md
@@ -17,6 +17,7 @@ package_files:
   - docs/package-notes.md
   - examples/calibration-missing-familiar-domain.json
   - examples/no-familiar-domain.json
+  - examples/socratic-question-loop.json
   - scripts/validate-package.sh
   - scripts/build-zip.sh
 runtime_excludes:
@@ -29,6 +30,7 @@ runtime_excludes:
   - docs/package-notes.md
   - examples/calibration-missing-familiar-domain.json
   - examples/no-familiar-domain.json
+  - examples/socratic-question-loop.json
   - scripts/validate-package.sh
   - scripts/build-zip.sh
 assets_runtime_policy: excluded_by_default

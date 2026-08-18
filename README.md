@@ -5,7 +5,7 @@
     <a href="https://github.com/konglong87/study-anything/blob/main/README.zh-CN.md"><strong>简体中文（默认）</strong></a> · English
   </p>
   <p>
-    <img alt="Version 0.1.1" src="https://img.shields.io/badge/version-0.1.1-0f766e?style=flat-square">
+    <img alt="Version 0.1.2" src="https://img.shields.io/badge/version-0.1.2-0f766e?style=flat-square">
     <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-2563eb?style=flat-square">
     <img alt="Skill package" src="https://img.shields.io/badge/package-skill.zip-334155?style=flat-square">
     <img alt="Reproducible SHA-256" src="https://img.shields.io/badge/SHA--256-reproducible-7c3aed?style=flat-square">
@@ -21,7 +21,7 @@ It is product-neutral and does not depend on a particular provider, database, or
 | Item | Details |
 | --- | --- |
 | Package key | `study-anything` |
-| Version | `0.1.1` |
+| Version | `0.1.2` |
 | Full instructions | `SKILL.md` |
 | Concise runtime | `runtime.md` |
 | Operating modes | Ordinary conversation and structured JSON |
@@ -50,7 +50,7 @@ The agent needs GitHub access and permission to write to its local skill directo
 - Uses analogies only when the learner confirms the source domain and always states the boundary.
 - Creates focused learning plans instead of oversized curricula.
 - Protects review gates and favors retrieval-based questions over passive explanation.
-- Uses Socratic prompts and Feynman explanations to test transferable understanding.
+- Uses an explicit Socratic dialogue loop and Feynman explanations to test transferable understanding.
 - Ends every learner-facing turn with a concrete next action.
 
 ## Learning Flow
@@ -59,9 +59,9 @@ The agent needs GitHub access and permission to write to its local skill directo
 | --- | --- |
 | 1. Calibrate | Understand the goal, current level, constraints, and useful reference domains. |
 | 2. Plan | Build a small, focused learning path with clear unit objectives. |
-| 3. Practice | Ask the learner to predict, compare, retrieve, explain, and apply. |
+| 3. Socratic practice | Diagnose, probe, contrast, hint, and let the learner retry. |
 | 4. Review | Revisit prior material with short, targeted recall checks. |
-| 5. Transfer | Use a Feynman explanation and a fresh example before treating a unit as understood. |
+| 5. Feynman transfer | Use a Feynman explanation and a fresh example before treating a unit as understood. |
 
 ## Quick Start
 

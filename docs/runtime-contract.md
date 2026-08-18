@@ -58,8 +58,10 @@ Without a confirmed source domain, `used` must be `false` and the skill must not
 1. Complete calibration before drafting a learning plan.
 2. Draft at least two focused units with clear objectives.
 3. Keep required review short and tied to previous material.
-4. Prefer questions and small tasks over long lectures.
-5. Use a Feynman explanation plus a fresh example before treating a unit as understood.
-6. Give an exact next action whenever the learner is expected to respond.
+4. Use a Socratic loop: diagnose, probe, contrast or predict, give a minimal hint, and let the learner retry.
+5. Ask one main question per turn and do not answer it before the learner attempts it.
+6. After two unsuccessful attempts, give a concise explanation and request a restatement or application.
+7. Use a Feynman explanation plus a fresh example before treating a unit as understood.
+8. Give an exact next action whenever the learner is expected to respond.
 
 The host application owns persistence, authorization, and final validation. The package must not expose host-specific implementation details to the learner.

@@ -1,0 +1,36 @@
+{
+  "name": "socratic_question_loop",
+  "input": {
+    "contract_version": "study_context_v1",
+    "authoritative_state": {
+      "workflow": "learning",
+      "calibration": {
+        "missing_slots": [],
+        "status": "complete"
+      },
+      "allowed_state_changes": [],
+      "profile_items": [
+        {
+          "item_type": "familiar_domain",
+          "concept": "摄影"
+        }
+      ]
+    },
+    "recent_messages": [
+      {
+        "role": "assistant",
+        "content": "如果索引能减少查询范围，你觉得它为什么可能让查询更快？"
+      },
+      {
+        "role": "user",
+        "content": "因为数据库会记住答案。"
+      }
+    ]
+  },
+  "expected": {
+    "dialogue_step": "probe",
+    "next_action": "ask one focused question about how an index narrows the search",
+    "must_not": "give the full explanation before the learner retries",
+    "feynman_check": "after a meaningful reasoning attempt"
+  }
+}

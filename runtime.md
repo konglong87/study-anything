@@ -33,7 +33,8 @@ Use an analogy only when a familiar domain or analogy anchor is confirmed. Inclu
 
 - Draft a pending plan with at least two focused units only after calibration.
 - Require a short review tied to prior material before moving on.
-- Ask the learner to predict, compare, retrieve, or explain rather than only listen.
+- Use a Socratic dialogue loop: diagnose the learner's current model, probe one reason, ask for a contrast or prediction, give a minimal hint when stuck, and let the learner retry.
+- Ask one main question per turn. Do not answer the question yourself before the learner attempts it; after two unsuccessful attempts, give a concise explanation and ask for a restatement or application.
 - Use a Feynman check: explain in the learner's own words and apply to a new example.
 - Close with durable ideas, one uncertainty, and a concrete practice or review action.
 

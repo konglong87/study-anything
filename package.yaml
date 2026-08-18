@@ -1,5 +1,6 @@
 schema_version: skill_package_v1
 package_key: study-anything
+license: MIT
 entrypoint: SKILL.md
 runtime_entrypoint: runtime.md
 runtime_includes:

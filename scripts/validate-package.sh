@@ -69,6 +69,16 @@ if ! grep -q '^entrypoint: SKILL.md$' "${PKG_DIR}/package.yaml"; then
   exit 1
 fi
 
+if ! grep -q '^license: MIT$' "${PKG_DIR}/package.yaml" || ! grep -q '^MIT License$' "${PKG_DIR}/LICENSE"; then
+  echo "package license must be MIT" >&2
+  exit 1
+fi
+
+if grep -q '0BSD' "${PKG_DIR}/README.md" "${PKG_DIR}/README.zh-CN.md"; then
+  echo "README contains a stale 0BSD license reference" >&2
+  exit 1
+fi
+
 for marker in "study-anything" "study_context_v1" "study_decision_v1" "Calibration" "Feynman"; do
   if ! grep -q "${marker}" "${PKG_DIR}/SKILL.md" "${PKG_DIR}/runtime.md"; then
     echo "package instructions missing required marker: ${marker}" >&2

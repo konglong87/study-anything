@@ -6,7 +6,7 @@
   </p>
   <p>
     <img alt="版本 0.1.0" src="https://img.shields.io/badge/version-0.1.0-0f766e?style=flat-square">
-    <img alt="0BSD 许可证" src="https://img.shields.io/badge/license-0BSD-2563eb?style=flat-square">
+    <img alt="MIT 许可证" src="https://img.shields.io/badge/license-MIT-2563eb?style=flat-square">
     <img alt="Skill 压缩包" src="https://img.shields.io/badge/package-skill.zip-334155?style=flat-square">
     <img alt="可复现 SHA-256" src="https://img.shields.io/badge/SHA--256-reproducible-7c3aed?style=flat-square">
   </p>
@@ -26,7 +26,7 @@
 | 使用模式 | 普通对话、结构化 JSON |
 | 公开协议 | `study_context_v1` → `study_decision_v1` |
 | 发布产物 | `dist/study-anything.skill.zip` |
-| 开源许可证 | 0BSD |
+| 开源许可证 | MIT |
 
 ## 一句话安装
 
@@ -120,4 +120,4 @@ dist/                             可直接发布的压缩包和校验文件
 
 ## 开源许可证
 
-本项目使用 [0BSD License](LICENSE)。
+本项目使用 [MIT License](LICENSE)。

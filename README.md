@@ -6,7 +6,7 @@
   </p>
   <p>
     <img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-0f766e?style=flat-square">
-    <img alt="License 0BSD" src="https://img.shields.io/badge/license-0BSD-2563eb?style=flat-square">
+    <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-2563eb?style=flat-square">
     <img alt="Skill package" src="https://img.shields.io/badge/package-skill.zip-334155?style=flat-square">
     <img alt="Reproducible SHA-256" src="https://img.shields.io/badge/SHA--256-reproducible-7c3aed?style=flat-square">
   </p>
@@ -26,7 +26,7 @@ It is product-neutral and does not depend on a particular provider, database, or
 | Operating modes | Ordinary conversation and structured JSON |
 | Public contracts | `study_context_v1` → `study_decision_v1` |
 | Release artifact | `dist/study-anything.skill.zip` |
-| License | 0BSD |
+| License | MIT |
 
 ## One-Line Install
 
@@ -120,4 +120,4 @@ The learner should do meaningful thinking. A short question, comparison, predict
 
 ## License
 
-Released under the [0BSD License](LICENSE).
+Released under the [MIT License](LICENSE).
